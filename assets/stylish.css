@@ -1,0 +1,97 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: content-box;
+}
+
+.container{
+    margin: 30px;
+    max-width: 350px;
+    min-height: 170px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.first{
+    display: flex;
+}
+.one{
+    width: 100px;
+    height: 60px;
+    background-color: orange;
+
+}
+.two{
+    width: 100px;
+    height: 60px;
+    background-color: orange;
+}
+.three{
+    width: 150px;
+    height: 60px;
+    background-color: orange;
+}
+.first span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.second{
+    width: 210px;
+    min-height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+   
+    
+
+}
+.s1{
+    height: 70px;
+    width: 170px;
+    background-color: orange;
+
+}
+.s2{
+    height: 70px;
+    width: 170px;
+    background-color: orange;
+}
+.s3{
+    height: 70px;
+    width: 170px;
+    background-color: orange;
+}
+.second div{
+    margin-left: 35px;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+
+   
+}
+.first .one:hover .second{
+    opacity: 1;
+}
+.one:hover{
+    background-color: rgb(202, 132, 0);
+}
+.two:hover{
+    background-color: rgb(202, 132, 0);
+}
+.three:hover{
+    background-color: rgb(202, 132, 0);
+}
+.s1:hover{
+    background-color: rgb(202, 132, 0);
+   
+    
+}
+.s2:hover{
+    background-color: rgb(202, 132, 0);
+}
+.s3:hover{
+    background-color: rgb(202, 132, 0);
+}

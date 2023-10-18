@@ -1,0 +1,193 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+nav{
+    position: sticky;
+    height: 58px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between ;
+    background-color:aliceblue;
+    
+
+
+}
+.navbartxt{
+    margin-left: 100px;
+    width: 500px;
+    height: 58px;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    font-size: 18px;
+    justify-content: space-between;
+}
+.navbartxt div{
+    cursor: pointer;
+}
+.shop{
+    display: flex;
+    gap: 3px;
+}
+.shopbuton{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color:aliceblue;
+    width: 100px;
+    height: 38px;
+    margin-right: 100px;
+    border: 1px solid black;
+    border-radius: 10px;
+    transition: 100ms;
+
+}
+.shopbuton:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.shopbuton:hover .sifir{
+    background-color: white;
+    color: black;
+}
+.sifir{
+    display: flex;
+    align-items: center;
+    background-color: black;
+    color: white;
+    justify-content: center;
+    width: 18px;
+    height: 18px;
+    border-radius: 100%;
+
+}
+/* -------------------------------------------------- */
+#first{
+    height: 40vh;
+    background-color: rgb(31, 31, 30);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#first .txt{
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#first h1{
+    font-size: 60px;
+
+}
+#first p{
+    color: rgb(207, 207, 207);
+    word-spacing: 2px;
+    font-size: 18px;
+}
+/* ---------------------------------------------- */
+#second{
+    height: 110vh;
+    background-color:aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+#second .container{
+    max-width: 1400px;
+    min-height: 110vh ;
+    display: grid;
+    align-items: center;
+    justify-content:space-between ;
+    gap: 30px;
+    grid-template-rows: auto auto  ;
+    grid-template-columns: auto auto auto auto;
+   
+    
+}
+.card{
+    width: 268px;
+    height: 376px;
+    background-color:white;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.card .bir{
+    font-size: 30px;
+    height: 170px;
+    background-color: rgb(238, 238, 238);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    position: relative;
+    
+}
+.ulduz{
+    color: rgb(179, 179, 3);
+    margin: 5px;
+    display: flex;
+    gap: 0px;
+}
+.card .bir .sale{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 10px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    width: 50PX;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+}
+.card .bir .sale:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(122, 122, 122);
+    cursor: pointer;
+}
+.card .iki{
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.card .iki p{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.card .iki .view{
+    width: 117px;
+    height: 38px;
+    background-color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    border: 1px solid black;
+    border-radius: 5px;
+    transition: 100ms;
+}
+.card .iki .view:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+/* ----------------------------- */
+footer{
+    height: 20vh;
+    background-color: rgb(20, 20, 20);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
